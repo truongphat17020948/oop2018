@@ -1,4 +1,4 @@
-package week1;
+
 
 public class Student {
  private String name, id, email, group;
@@ -22,7 +22,7 @@ public class Student {
 		public void setgroup(String k){ group=k;}
 		public String getgroup() {return group;}
 		
-    Student() {
+    public Student() {
 		name = "student";
 		id= "0000";
 		email= "uet@vnu.edu.vn";
@@ -36,7 +36,7 @@ public class Student {
      * @param sid
      * @param em
      */
-    Student(String n , String sid , String em) {
+    public Student(String n , String sid , String em) {
 		name=n;
 		id=sid;
 		email=em;
@@ -48,7 +48,7 @@ public class Student {
      * Constructor 3
      * @param s
      */
-    Student(Student s) {
+    public Student(Student s) {
 		name = s.getname();
 		id = s.getid();
 		email= s.getemail();
@@ -56,8 +56,14 @@ public class Student {
         // TODO:
     }
 
-    String getInfo() {
-		System.out.println(name+id+email+group);
+    public String getInfo() {
+		System.out.println("Ten: "+name );
+			
+			System.out.println("Id: "+id );
+			
+			System.out.println("Lop: "+group );
+			
+			System.out.println("Email:" +email);
         // TODO:
         return null; // xóa dòng này sau khi cài đặt
     }
