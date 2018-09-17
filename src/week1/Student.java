@@ -1,4 +1,4 @@
-
+package week1;
 
 public class Student {
  private String name, id, email, group;
@@ -64,6 +64,7 @@ public class Student {
 			System.out.println("Lop: "+group );
 			
 			System.out.println("Email:" +email);
+			System.out.println(" ");
         // TODO:
         return null; // xóa dòng này sau khi cài đặt
     }
