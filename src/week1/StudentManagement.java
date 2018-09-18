@@ -41,6 +41,16 @@ public class StudentManagement {
 		}
   }
     void removeStudent(String id) {
+		for (int i=0;i<a;i++)
+		{
+			if(students[i].getid()==id)
+			{
+				for(int j=i;j<a-1;j++)
+				{
+					students[j]=students[j+1];
+				}
+			}a--;
+		}
         // TODO:
     }
 
@@ -73,11 +83,14 @@ public class StudentManagement {
 	  System.out.println(" ");}
 	
 	
-	StudentManagement cacsinhvien = new StudentManagement(); 
-  cacsinhvien.add(s1);
-  cacsinhvien.add(S1);
-  cacsinhvien.add(S2);
+	//StudentManagement cacsinhvien = new StudentManagement(); 
+  //cacsinhvien.add(s1);
+  //cacsinhvien.add(S1);
+  //cacsinhvien.add(S2);
+ // cacsinhvien.studentsByGroup();
   
-  cacsinhvien.studentsByGroup();
-	}
+	//System.out.println(" thu xoa :" );
+	//cacsinhvien.removeStudent("0000");
+	//cacsinhvien.studentsByGroup();}
+	
 }
