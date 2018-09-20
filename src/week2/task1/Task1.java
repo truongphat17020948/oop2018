@@ -1,4 +1,4 @@
-
+package Task1;
 public class Task1 {
 	
     public static int gcd(int a, int b) {
