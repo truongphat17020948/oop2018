@@ -19,8 +19,8 @@ public class Student {
 	public void setemail(String m) {email = m;}
 	public String getemail() {return email;}
 	
-		public void setgroup(String k){ group=k;}
-		public String getgroup() {return group;}
+	public void setgroup(String k){ group=k;}
+	public String getgroup() {return group;}
 		
     public Student() {
 		name = "student";
@@ -56,7 +56,7 @@ public class Student {
         // TODO:
     }
 
-    public String getInfo() {
+    public void getInfo() {
 		System.out.println("Ten: "+name );
 			
 			System.out.println("Id: "+id );
@@ -66,6 +66,8 @@ public class Student {
 			System.out.println("Email:" +email);
 			System.out.println(" ");
         // TODO:
-        return null; // xóa dòng này sau khi cài đặt
+		
+         // xóa dòng này sau khi cài đặt
     }
+	
 }

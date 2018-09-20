@@ -10,7 +10,7 @@ public class StudentManagement {
    students[a++] = sv;
    }
     public static boolean sameGroup(Student s1, Student s2) {
-		return s1.getgroup()==s2.getgroup();
+		return s1.getgroup().equals(s2.getgroup());
         // TODO:
     }
 
@@ -22,7 +22,7 @@ public class StudentManagement {
 	   {
 		   for(j=0;j<sonhom;j++)
 		   {
-			   if(students[i].getgroup()==Group[j]) break;
+			   if(students[i].getgroup().equals(Group[j])) break;
 			   }
 	      if(j==sonhom)
 	      {Group[sonhom++]=students[i].getgroup();}	
@@ -32,7 +32,7 @@ public class StudentManagement {
 			System.out.println("ten nhom : " + Group[j]);
 			for( i=0;i<a;i++)
 			{
-				if(students[i].getgroup()==Group[j])
+				if(students[i].getgroup().equals(Group[j]))
 				{
 					students[i].getInfo();
 					System.out.println(" ");
@@ -69,7 +69,7 @@ public class StudentManagement {
 	 
 	 Student s1= new Student("sv1", "id1", "email1");
 	 s1.setgroup("group");
-	 phat.Student(s1);
+	 phat = new Student(s1);
 	 phat.getInfo();
 	 
 	 Student S1= new Student();
@@ -83,14 +83,14 @@ public class StudentManagement {
 	  System.out.println(" ");}
 	
 	
-	//StudentManagement cacsinhvien = new StudentManagement(); 
+	StudentManagement cacsinhvien = new StudentManagement(); 
   //cacsinhvien.add(s1);
   //cacsinhvien.add(S1);
   //cacsinhvien.add(S2);
- // cacsinhvien.studentsByGroup();
+ //cacsinhvien.studentsByGroup();
   
 	//System.out.println(" thu xoa :" );
 	//cacsinhvien.removeStudent("0000");
 	//cacsinhvien.studentsByGroup();}
 	
-}
+}}
