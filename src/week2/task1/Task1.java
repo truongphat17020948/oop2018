@@ -1,7 +1,7 @@
 
 public class Task1 {
 	
-    public static int ucln(int a, int b) {
+    public static int gcd(int a, int b) {
 		
 		if(a<0) a=-a;
 		if(b<0) b=-b;
@@ -52,7 +52,7 @@ public class Task1 {
 	
 	public static void main(String ard[])
 	{
-	//	System.out.println(ucln(-15,9));
+	//	System.out.println(gcd(-15,9));
 	//	System.out.println(fibonacci(3));
 	}
 	
