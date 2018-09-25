@@ -110,9 +110,64 @@ class BMI{
 	   BMI b = new BMI();
 	   b.SetNhietdo(10);
 	   b.xetnhietdo();
-   }
-   
+   }  
 }
 
+class thoitiet
+{
+	int nhietdo;
+	int doam;
+	String sucgio;
+	  public void SetDoam(int doam)
+  {
+	  this.doam=doam;
+  }
+  public int GetDoam() 
+  {
+	  return doam;
+  }
+  public void SetSucgio(String sucgio)
+  {
+	  this.sucgio=sucgio;
+  }
+  public String GetSucgio() 
+  {
+	  return sucgio;
+  }
+   public void SetNhietdo(int nhietdo)
+  {
+	  this.nhietdo=nhietdo;
+  }
+  public int GetNhietdo() 
+  {
+	  return nhietdo;
+  }
+  public void xemnhietdo()
+  {
+	  if(nhietdo>27) {System.out.println(" troi nong ");}
+	  else if(nhietdo<17) {System.out.println(" troi lanh");}
+	  else {System.out.println(" troi dep");}
+  }
+  // am giac nhietdo
+  public void xemdoam()
+  {
+	  if(doam>50&&doam<80) {System.out.println(" tot ");}
+	  else {System.out.println(" khong tot ");}
+  }
+  // xet do am
+  public void xembao ()
+  {
+	  if(doam>80&&sucgio=="rat manh") {System.out.println(" bao ");}
+	  else{System.out.println(" khong co bao ");}
+  }
+  // tinh bao
+  public static void main(String [] abc)
+  {
+	  thoitiet a = new thoitiet();
+	  a.SetDoam(90);
+	  a.SetSucgio("rat manh");
+	  a.xembao();
+  }
+}
 
 //TODO: khai báo 3 class tương ứng với 3 đối tượng thực tế ở dưới
