@@ -36,7 +36,6 @@ System.out.println(sothe.numerator + "/" + sothe.denominator);
 		Fraction sothe= new Fraction(0,0);
 		sothe.numerator=((other.numerator*denominator)-(other.denominator*numerator));
 			sothe.denominator=(other.denominator*denominator);
-		if(sothe.denominator<0) sothe.denominator=-sothe.denominator;
         // TODO: Phương thức trừ hai phân số (this và other), trả đối tượng Fraction mới
     System.out.println(sothe.numerator + "/" + sothe.denominator);
         return sothe;
