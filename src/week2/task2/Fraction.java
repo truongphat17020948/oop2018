@@ -34,7 +34,7 @@ System.out.println(sothe.numerator + "/" + sothe.denominator);
 
     public Fraction subtract(Fraction other) {
 		Fraction sothe= new Fraction(0,0);
-		sothe.numerator=((other.numerator*denominator)-(other.denominator*numerator));
+		sothe.numerator=((numerator*other.denominator)-(denominator*other.numerator));
 			sothe.denominator=(other.denominator*denominator);
         // TODO: Phương thức trừ hai phân số (this và other), trả đối tượng Fraction mới
     System.out.println(sothe.numerator + "/" + sothe.denominator);
@@ -52,8 +52,8 @@ System.out.println(sothe.numerator + "/" + sothe.denominator);
 
     public Fraction divide(Fraction other) {
 		Fraction sothe= new Fraction(0,0);
-			sothe.numerator=(other.numerator*denominator);
-			sothe.denominator=(other.denominator*numerator);
+			sothe.numerator=(numerator*other.denominator);
+			sothe.denominator=(denominator*other.numerator);
 		 System.out.println(sothe.numerator + "/" + sothe.denominator);
         // TODO: Phương thức chia hai phân số (this và other), trả ve đối tượng Fraction mới
         return sothe;
