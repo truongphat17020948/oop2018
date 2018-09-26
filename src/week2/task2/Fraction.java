@@ -63,7 +63,7 @@ System.out.println(sothe.numerator + "/" + sothe.denominator);
  public boolean equals(Object obj)
  {
 	 Fraction a = (Fraction) obj;
-    return (numerator*a.denominator > a.numerator*denominator);
+    return (numerator*a.denominator == a.numerator*denominator);
  }
 
 	public static void main(String ard[])
