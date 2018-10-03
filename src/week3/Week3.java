@@ -30,7 +30,7 @@ public class Week3 {
       if(BMI<18.5)  a="Thiếu cân";
       else if(BMI>18.5&&BMI<22.99) a="Bình thường";
       else if(BMI>=22.99&&BMI<=24.99) a="Thừa cân";
-      else if(BMI>=25) a="Béo phì";
+      else if(BMI>24.99) a="Béo phì";
         // TODO: Viết chương trình tính chỉ số BMI và in ra kết quả đánh giá
           return a;
     }
