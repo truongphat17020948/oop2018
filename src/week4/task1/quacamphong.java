@@ -1,6 +1,6 @@
 package week4.task1;
 
- class quacamphong extends quatao{
+ public class quacamphong extends quatao{
    private int soluong;
     public void quacamphong(int soluong,int giaban,int ngaynhap)
     {
