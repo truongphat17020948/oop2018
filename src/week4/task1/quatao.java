@@ -1,6 +1,6 @@
 package week4.task1;
 
- class quatao extends quacam {
+ public class quatao extends quacam {
   private   String phanloai;
 //phân biệt to nhỏ
      public void quatao(){};
