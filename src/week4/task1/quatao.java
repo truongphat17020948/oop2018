@@ -2,7 +2,15 @@ package week4.task1;
 
  class quatao extends quacam {
   private   String phanloai;
-//phân biệt táo tàu và táo mĩ
+//phân biệt to nhỏ
+     public void quatao(){};
+    public void quatao(String ten,String nguongoc,int ngaynhap,String phanloai)
+    {
+        setTen(ten);
+        setNguongoc(nguongoc);
+        setNgaynhap(ngaynhap);
+        this.phanloai=phanloai;
+    }
     public String getPhanloai() {
         return phanloai;
     }
@@ -11,12 +19,12 @@ package week4.task1;
     }
     public void giatri()
     {
-        if(getPhanloai()=="táo tàu")
+        if(getPhanloai()=="nhỏ")
         {
             setGiaban(10);
             System.out.println(getGiaban());
         }
-        else if(getPhanloai()=="táo mĩ")
+        else if(getPhanloai()=="to")
         {
             setGiaban(100);
             System.out.println(getGiaban());

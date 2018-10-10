@@ -2,7 +2,13 @@ package week4.task1;
 
  class quacam extends hoaqua {
   private   String nguongoc;
-
+public void quacam(){};
+public void quacam(String ten,String nguongoc,int ngaynhap)
+{
+    setTen(ten);
+   this.nguongoc=nguongoc;
+   this.ngaynhap = ngaynhap;
+}
     public String getNguongoc() {
         return nguongoc;
     }
