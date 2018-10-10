@@ -1,6 +1,6 @@
 package week4.task1;
 
-public class hoaqua {
+ class hoaqua {
    private String ten;
     public String getTen() {
         return ten;

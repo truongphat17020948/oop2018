@@ -1,6 +1,5 @@
 package week4.task1;
-
-public class camsanh extends quacamphong {
+ class camsanh extends quacamphong {
     String vi;
 //thể hiện vị của quả cam
     public String getVi() {

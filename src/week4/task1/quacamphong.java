@@ -1,6 +1,6 @@
 package week4.task1;
 
-public class quacamphong extends quatao{
+ class quacamphong extends quatao{
    private int soluong;
 
     public int getSoluong() {

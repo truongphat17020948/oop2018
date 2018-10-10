@@ -1,6 +1,6 @@
 package week4.task1;
 
-public class main extends quatao {
+public class main  {
     public static void main(String [] arg)
     {
         quatao c= new quatao();
@@ -10,7 +10,7 @@ public class main extends quatao {
         camsanh e = new camsanh();
       //  c.setPhanloai("táo mĩ");
       //  c.giatri();
-        e.setVi("chua");
-        e.danhgia();
+      //  e.setVi("chua");
+      //  e.danhgia();
     }
 }

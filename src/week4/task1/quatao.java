@@ -1,6 +1,6 @@
 package week4.task1;
 
-public class quatao extends quacam {
+ class quatao extends quacam {
   private   String phanloai;
 //phân biệt táo tàu và táo mĩ
     public String getPhanloai() {
