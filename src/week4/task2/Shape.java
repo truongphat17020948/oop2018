@@ -1,6 +1,6 @@
 package week4.task2;
 
- class Shape {
+ public class Shape {
     private String color = "red";
     private boolean filled = true;
     public void Shape() {};
